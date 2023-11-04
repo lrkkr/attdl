@@ -1,0 +1,12 @@
+[package]
+name = "attdl"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenvy = "0.15.7"
+imap = { version = "2.4.1", features = ["native-tls"] }
+mail-parser = "0.9.1"
+native-tls = "0.2.11"
