@@ -12,7 +12,7 @@ A mail attachment downloader based on the IMAP protocol written in Rust.
 ## Usage
 
 ```bash
-mv .env.example .env
+mv .env-example .env
 ```
 
 Edit the `.env` file to your needs.
